@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pokemon Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Stylesheets-->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/hover.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top"
+             data-0="background-color:rgba(254,254,254,1); border-color:rgb(231,231,231);"
+             data-20="background-color:rgba(34,34,34,1);border-color:rgb(8,8,8);" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="brand" href="/">
+                        <img src="Pokemon logo.png">
+                    </a>
+                </div>
+
+                <div id="main-navbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Movies <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Pokemon movie 1</a>
+                                </li>
+                                <li><a href="#">Pokemon movie 2</a>
+                                </li>
+                                <li><a href="#">Pokemon movie 3</a>
+                                </li>
+                                <li><a href="#">Pokemon movie 4</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Anime</a></li>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/sample-slide.jpg">
+                </div>
+                <div class="item">
+                    <img src="images/Desert.jpg">
+
+                    <div class="carousel-caption">
+                        <h3>Some Desert</h3>
+
+                        <p>Describe the Desert</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/change.jpg">
+                </div>
+                <div class="item">
+                    <img src="images/Tulips.jpg">
+                </div>
+
+            </div>
+
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </section>
+
+        <section class="text-center guttered">
+            <a href="#" class="button wobble-vertical">Wobble Vertical</a>
+        </section>
+
+        <section class="text-center guttered">
+            <div class="row">
+                <div class="col-7 text-right">
+                    <iframe width="853" height="480" src="//www.youtube.com/embed/tpfLnTudQDM" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-5 text-left">
+                    <a class="twitter-timeline" href="https://twitter.com/AndrewZhong4" data-widget-id="462462835570651136">Tweets by @AndrewZhong4</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center guttered">
+            <a href="#" class="button wobble-vertical">Wobble Vertical</a>
+        </section>
+
+        <footer>
+            <section class="text-center guttered">
+                <div class="container">
+                    <div class="three-columns">
+                        <h2>Column 1</h2>
+                    </div>
+                    <div class="three-columns">
+                        <h2>Column 2</h2>
+                    </div>
+                    <div class="three-columns">
+                        <h2>Column 3</h2>
+                    </div>
+                </div>
+            </section>
+            <section class="text-center">
+                Created by Andrew Zhong
+            </section>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/skrollr.min.js"></script>
+        <script type="text/javascript">
+            var s = skrollr.init();
+        </script>
+    </body>
+</html>
