@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>PoKe Home</title>
+  <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Stylesheets-->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/hover.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="css/slick.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+</head>
+
+<body onLoad="MM_preloadImages('images/Facebook-hover.png')">
+  <nav  class="navbar navbar-default navbar-fixed-top"
+        data-0="background-color:rgba(254,254,254,1);border-color:rgb(231,231,231);"
+        data-20="background-color:rgba(34,34,34,1);border-color:rgb(8,8,8);"
+        role="navigation"
+  >
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="index.html">
+          <img src="images/logo.png">
+        </a>
+      </div>
+
+      <div id="main-navbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a  href="Movies.html" class="dropdown-toggle" data-hover="dropdown">Movies <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="Movies.html#videos1">Pokemon movie 1</a>
+              </li>
+              <li><a href="Movies.html#videos2">Pokemon movie 2</a>
+              </li>
+              <li><a href="Movies.html#videos3">Pokemon movie 3</a>
+              </li>
+              <li><a href="Movies.html#videos4">Pokemon movie 4</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a  href="Anime1.html">Anime</a>
+          </li>
+          <li>
+            <a href="Games.html">Games</a>
+          </li>
+          <li>
+            <a  href="About Us.html">About Us</a>
+          </li>
+          <li>
+            <a  href="Contact Us.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ <div id="wrap">
+        <section id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </li>
+            </ol>
+
+            <div class="carousel-inner">
+              <div class="item active">
+                <a href="Games.html">
+                  <img src="images/test 2.jpg">
+
+                  <div class="carousel-caption">
+                      <h3> Play some of the latest Pokemon Games </h3>
+
+                      <p>Victini&Zekrom</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="Movies.html">
+                  <img src="images/test.jpg">
+
+                  <div class="carousel-caption">
+                      <h3> Watch some of the latest Pokemon Movies </h3>
+
+                      <p>Victini&Zekrom</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                  <img src="images/test 3.jpg">
+              </div>
+
+            </div>
+
+
+      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </section>
+
+    <section class="text-center guttered">
+      <div class="container">
+        <div class="row inline-row">
+          <div class="col-7 text-right">
+            <iframe width="640" height="360" src="http://www.youtube.com/embed/tpfLnTudQDM" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="col-1" style="width:7%"></div>
+          <div class="col-4 text-left">
+            <a class="twitter-timeline" href="https://twitter.com/AndrewZhong4" data-widget-id="462462835570651136">Tweets by @AndrewZhong4</a>
+            <script>
+              ! function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0],
+                  p = /^http:/.test(d.location) ? 'http' : 'https';
+                if (!d.getElementById(id)) {
+                  js = d.createElement(s);
+                  js.id = id;
+                  js.src = p + "://platform.twitter.com/widgets.js";
+                  fjs.parentNode.insertBefore(js, fjs);
+                }
+              }(document, "script", "twitter-wjs");
+            </script>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-center" style="background:#313131;margin-bottom:0px;color:#999;overflow:hidden;">
+      <div class="video-carousel" style="position: relative;">
+        <!-- Slide 1 -->
+        <div data-toggle="modal" data-target="#slide1Modal">
+          <img src="images/Index_Videos/1.png">
+          <div class="slide-caption text-left">
+            <h3>A Pokemon of a Different Color!</h3>
+            <p class="lead">Pokemon Megaevoluation</p>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div data-toggle="modal" data-target="#slide2Modal">
+          <img src="images/Index_Videos/2.png">
+          <div class="slide-caption text-left">
+            <h3>Go, Go Gogoat!</h3>
+            <p class="lead">Pokemon Megaevoluation</p>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div data-toggle="modal" data-target="#slide3Modal">
+          <img src="images/Index_Videos/3.png">
+          <div class="slide-caption text-left">
+            <h3>Best Wishes Until We Meet Again!</h3>
+            <p class="lead">Pokemon Megaevoluation</p>
+          </div>
+        </div>
+        <!-- Slide 4 -->
+        <div data-toggle="modal" data-target="#slide4Modal">
+          <img src="images/Index_Videos/4.png">
+          <div class="slide-caption text-left">
+            <h3>The Dream Continues!</h3>
+            <p class="lead">Pokemon Megaevoluation</p>
+          </div>
+        </div>
+        <!-- Slide 5 -->
+        <div data-toggle="modal" data-target="#slide5Modal">
+          <img src="images/Index_Videos/6.png">
+          <div class="slide-caption text-left">
+            <h3>The Journalist from Another Region!</h3>
+            <p class="lead">Pokemon Megaevoluation</p>
+          </div>
+        </div>
+        <!-- Slide 6 -->
+        <div data-toggle="modal" data-target="#slide6Modal">
+          <img src="images/Index_Videos/5.png">
+          <div class="slide-caption text-left">
+            <h3>Celebrating the Hero's Comet!</h3>
+            <p class="lead">Pokemon Megaevoluation</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 1 Modal -->
+      <div class="modal fade" id="slide1Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <iframe class="modal-body" src="http://www.youtube-nocookie.com/embed/wQoPCgya8C0" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <!-- End Slide 1 Modal-->
+
+      <!-- Slide 2 Modal -->
+      <div class="modal fade" id="slide2Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <iframe class="modal-body" src="http://www.youtube-nocookie.com/embed/ofrMgDC_1Fo" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <!-- End Slide 2 Modal-->
+
+      <!-- Slide 3 Modal -->
+      <div class="modal fade" id="slide3Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <iframe class="modal-body" src="http://www.youtube-nocookie.com/embed/UkjWG567gOQ" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <!-- End Slide 3 Modal-->
+
+      <!-- Slide 4 Modal -->
+      <div class="modal fade" id="slide4Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <iframe class="modal-body" src="http://www.youtube-nocookie.com/embed/vU5DZvn-p6o" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <!-- End Slide 4 Modal-->
+
+      <!-- Slide 5 Modal -->
+      <div class="modal fade" id="slide5Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <iframe class="modal-body" src="http://www.youtube-nocookie.com/embed/R9vTYaodQeM" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <!-- End Slide 5 Modal-->
+
+      <!-- Slide 6 Modal -->
+      <div class="modal fade" id="slide6Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <iframe class="modal-body" src="http://www.youtube-nocookie.com/embed/O3Rs3HUqoOw" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <!-- End Slide 6 Modal-->
+    </section>
+    <section class="text-center guttered">
+      <div class="row">
+        <div class="col-6 text-right">
+          <a href="http://www.serebii.net/index2.shtml" class="wobble-vertical">
+            <img src="images/tl.png">
+          </a>
+        </div>
+        <div class="col-6 text-left">
+          <a href="contact us.html" class="wobble-vertical">
+            <img src="images/rt.png">
+          </a>
+        </div>
+      </div>
+      <a href="http://www.pokemon.com/us/pokedex/">
+        <img src="images/ezgif.com-gif-maker.gif"  style="position: absolute; margin-top: -50px; margin-left: -70px;"class="pokeball-center">
+      </a>
+      <div class="row" style="padding-top: 30px;">
+        <div class="col-6 text-right">
+          <a href="Anime1.html" class="wobble-vertical">
+            <img src="images/lb.png">
+          </a>
+        </div>
+        <div class="col-6 text-left">
+          <a href="http://bulbapedia.bulbagarden.net/wiki/Main_Page" class="wobble-vertical">
+            <img src="images/Bublapedia2.png">
+            <img src="images/bulbasaur.gif" style="position: absolute; margin-top: -96px; margin-left: 32px;">
+            <img src="images/charmander.gif" style="position: absolute; margin-top: -169px; margin-left: 155px;">
+            <img src="images/squirtle.gif" style="position: absolute; margin-top: -97px; margin-left: 203px;">
+            <img src="images/pikachu.gif" style="position: absolute; margin-top: -173px; margin-left: 331px;">
+            <img src="images/Bulbapedia logo.png" style="position: absolute; margin-top: -153px; margin-left: 352px;">
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <section class="text-center guttered">
+      <div class="container">
+        <div class="three-columns">
+          <h2>Follow Me</h2>
+          <a href="https://twitter.com/AndrewZhong4" class="twitter-follow-button" data-show-count="false" data-size="medium">Follow @AndrewZhong4</a>
+          <script>
+            ! function (d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0],
+                p = /^http:/.test(d.location) ? 'http' : 'https';
+              if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = p + '://platform.twitter.com/widgets.js';
+                fjs.parentNode.insertBefore(js, fjs);
+              }
+            }(document, 'script', 'twitter-wjs');
+          </script>
+
+          <iframe src="http://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FPokeProject%2F480323208767973%3Fref%3Dhl%26ref_type%3Dbookmark&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+          
+          <script src="https://apis.google.com/js/platform.js"></script>
+          
+          <script>
+            function onYtEvent(payload) {
+              var logElement = document.getElementById('ytsubscribe-events-log');
+              if (payload.eventType == 'subscribe') {
+                logElement.innerHTML = 'You will love this channel! :D'
+              } else if (payload.eventType == 'unsubscribe') {
+                logElement.innerHTML = 'We are sorry you are unsubscribing. :('
+              }
+              if (window.console) {
+                window.console.log('ytsubscribe event: ', payload);
+              }
+            }
+          </script>
+
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','images/Facebook-hover.png',1)"><img src="images/Facebook.png" width="48" height="48" id="Image21"></a>
+                  <div class="g-ytsubscribe" data-channel="PewDiePie" data-layout="full" data-count="hidden" data-onytevent="onYtEvent"></div>
+        </div>
+        <div class="three-columns">
+          <h2>Column 2</h2>
+        </div>
+        <div class="three-columns">
+          <h2>Links</h2>
+          <a href="Index.html" target="_blank">Index</a>
+          <a href="Movies.html" target="_blank">Movie</a>
+          <a href="Games.html" target="_blank">Games</a>
+          <a href="About Us.html" target="_blank">About Us</a>
+          <a href="Contact Us.html" target="_blank">Contact Us</a>
+        </div>
+      </div>
+    </section>
+    <section class="text-center" style="background-color: rgb(34,34,34);">
+      Created by Andrew Zhong
+    </section>
+  </footer>
+
+  <!-- Scripts -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/skrollr.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap-hover-dropdown.js"></script>
+  <script type="text/javascript" src="js/slick.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+</body>
+
+</html>
