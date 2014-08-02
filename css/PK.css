@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+section#videos{
+	background-image: URL(images/Darkrai.jpg);
+	background-repeat: no-repeat;
+	background- position:50% 50%;

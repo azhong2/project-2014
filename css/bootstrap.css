@@ -404,7 +404,7 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 25px;
 }
 h3,
 .h3 {
@@ -3346,19 +3346,19 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333333;
+  color: #333333 !important;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #555555;
+  color: #555555 !important;
   background-color: #e7e7e7;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
 .navbar-default .navbar-nav > .disabled > a:focus {
-  color: #cccccc;
+  color: #cccccc !important;
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
@@ -4279,9 +4279,9 @@ a.list-group-item-info.active:focus {
   border-color: #dddddd;
 }
 .panel-default > .panel-heading {
-  color: #333333;
-  background-color: #f5f5f5;
-  border-color: #dddddd;
+	color: #333333;
+	background-color: #CCCCCC;
+	border-color: #dddddd;
 }
 .panel-default > .panel-heading + .panel-collapse .panel-body {
   border-top-color: #dddddd;
@@ -4989,4 +4989,3 @@ button.close {
 .affix {
   position: fixed;
 }
-
